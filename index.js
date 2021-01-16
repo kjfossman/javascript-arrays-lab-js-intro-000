@@ -24,3 +24,7 @@ let appendKitten  = function(name){
 let prependKitten = function(name){
   return [name, ...kittens]
 }
+
+let removeLastKitten = function(){
+  kittens.slice(1 - length - 1)
+}
