@@ -20,3 +20,7 @@ let destructivelyRemoveFirstKitten = function(){
 let appendKitten  = function(name){
   return [...kittens, name]
 }
+
+let prependKitten = function(name){
+  return [name, ...kittens]
+}
