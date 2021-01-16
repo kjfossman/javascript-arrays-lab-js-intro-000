@@ -1,10 +1,10 @@
 var kittens = ["Milo", "Otis", "Garfield"]
 
 // Add your functions and code here
-destructivelyAppendKitten = function(name){
+let destructivelyAppendKitten = function(name){
   kittens.push(name)
 }
 
-destructivelyPrependKitten = function (name){
-  kittens.pop(name)
+let destructivelyPrependKitten = function (name){
+  kittens.unshift(name)
 }
