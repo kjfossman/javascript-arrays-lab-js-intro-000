@@ -5,6 +5,10 @@ let destructivelyAppendKitten = function(name){
   kittens.push(name)
 }
 
-let destructivelyPrependKitten = function (name){
+let destructivelyPrependKitten = function(name){
   kittens.unshift(name)
+}
+
+destructivelyRemoveLastKitten = function(){
+  kittens.pop()
 }
