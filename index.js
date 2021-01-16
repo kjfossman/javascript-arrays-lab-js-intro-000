@@ -9,7 +9,7 @@ let destructivelyPrependKitten = function(name){
   kittens.unshift(name)
 }
 
-destructivelyRemoveLastKitten = function(){
+let destructivelyRemoveLastKitten = function(){
   kittens.pop()
 }
 
